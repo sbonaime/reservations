@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(version: 20190401113606) do
     t.boolean "disable_user_emails", default: false
     t.boolean "autodeactivate_on_archive", default: false
     t.boolean "requests_affect_availability", default: false
-    t.boolean "big_endian_date_format"
+    t.boolean "big_endian_date_format", default: false
   end
 
   create_table "blackouts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
