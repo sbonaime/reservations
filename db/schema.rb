@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180624231458) do
+ActiveRecord::Schema.define(version: 20190401113606) do
 
   create_table "announcements", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.text "message"
@@ -57,6 +57,7 @@ ActiveRecord::Schema.define(version: 20180624231458) do
     t.boolean "disable_user_emails", default: false
     t.boolean "autodeactivate_on_archive", default: false
     t.boolean "requests_affect_availability", default: false
+    t.boolean "big_endian_date_format"
   end
 
   create_table "blackouts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
