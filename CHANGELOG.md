@@ -3,11 +3,15 @@
 * Any problems should be reported via the "report an issue" link in the footer of the application.
 
 ## v6.3.6 - 2019-01-11
+### Changed
+* Replaced capybara-webkit with selenium and Chromedriver ([#1769](https://github.com/YaleSTC/reservations/issues/1769)).
+
 ### Fixed
 * Fixed issue with recurring blackouts being blocked by old reservations ([#1756](https://github.com/YaleSTC/reservations/issues/1756)).
 * Fixed issue with links to documentation and anchor tags being escaped in flash messages ([#1760](https://github.com/YaleSTC/reservations/issues/1760)).
 * Update loofah from 2.2.2 -> 2.2.3 ([#1763](https://github.com/YaleSTC/reservations/issues/1763)).
 * Fixed issue with CSV user importer ([#1765](https://github.com/YaleSTC/reservations/issues/1765)).
+* Fixed issue with editing blackouts ([#1771](https://github.com/YaleSTC/reservations/issues/1771)).
 
 ## v6.3.5 - 2018-10-08
 ### Fixed
